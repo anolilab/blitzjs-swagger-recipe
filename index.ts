@@ -4,7 +4,7 @@ import path from "path"
 import pkg from "./package.json";
 
 export default RecipeBuilder()
-    .setName("Tailwind UI")
+    .setName("Swagger Recipe")
     .setOwner(pkg.author)
     .setRepoLink(pkg.repository.url)
     .addAddDependenciesStep({
@@ -22,7 +22,7 @@ export default RecipeBuilder()
         stepId: "addIntegrations",
         stepName: "Add Swagger helper files",
         explanation: `Helper to create spec based on swagger-jsdoc`,
-        targetDirectory: ".",
+        targetDirectory: "./integrations",
         templatePath: path.join(__dirname, "templates", "integrations"),
         templateValues: {},
     })
@@ -30,7 +30,7 @@ export default RecipeBuilder()
         stepId: "addSwaggerPage",
         stepName: "Add Swagger page file",
         explanation: `Helper to create spec based on swagger-jsdoc`,
-        targetDirectory: ".",
+        targetDirectory: "./app/pages",
         templatePath: path.join(__dirname, "templates", "pages"),
         templateValues: {},
     })
