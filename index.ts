@@ -1,5 +1,5 @@
 import { RecipeBuilder } from "@blitzjs/installer";
-import { join } from "path";
+import path from "path"
 
 import pkg from "./package.json";
 
@@ -23,7 +23,7 @@ export default RecipeBuilder()
         stepName: "Add Swagger helper files",
         explanation: `Helper to create spec based on swagger-jsdoc`,
         targetDirectory: ".",
-        templatePath: join(__dirname, "templates", "integrations"),
+        templatePath: path.join(__dirname, "templates", "integrations"),
         templateValues: {},
     })
     .addNewFilesStep({
@@ -31,7 +31,7 @@ export default RecipeBuilder()
         stepName: "Add Swagger page file",
         explanation: `Helper to create spec based on swagger-jsdoc`,
         targetDirectory: ".",
-        templatePath: join(__dirname, "templates", "pages"),
+        templatePath: path.join(__dirname, "templates", "pages"),
         templateValues: {},
     })
     .build();
