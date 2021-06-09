@@ -31,14 +31,12 @@
         ]
     },
     "dependencies": {
-        "@blitzjs/installer": "^0.37.0",
-        "jscodeshift": "0.12.0"
+        "@blitzjs/installer": "^0.37.0"
     },
     "devDependencies": {
         "@anolilab/eslint-config": "^2.1.1",
         "@anolilab/prettier-config": "^2.0.1",
         "@anolilab/textlint-config": "^2.0.4",
-        "@types/jscodeshift": "0.11.0",
         "@types/lodash.merge": "^4.6.6",
         "@types/swagger-jsdoc": "^6.0.0",
         "@types/swagger-ui-react": "^3.35.1",

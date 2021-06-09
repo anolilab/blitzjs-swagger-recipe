@@ -1,8 +1,5 @@
-
-import { RecipeBuilder, paths, addImport } from "@blitzjs/installer";
+import { RecipeBuilder } from "@blitzjs/installer";
 import { join } from "path";
-import j from "jscodeshift";
-import { Collection } from "jscodeshift/src/Collection";
 
 import pkg from "./package.json";
 
