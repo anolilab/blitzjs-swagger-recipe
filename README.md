@@ -1,6 +1,8 @@
-# BlitzJS Swagger Recipe
+<p align="center"><img src="/assets/header.png" alt="Swagger Recipe for BlitzJs"></p>
 
-A BlitzJs swagger page based on [swagger jsdoc](https://github.com/Surnet/swagger-jsdoc).
+# Swagger Recipe for BlitzJs
+
+Swagger page based on [swagger jsdoc](https://github.com/Surnet/swagger-jsdoc) for BlitzJs.
 
 ## Getting Started
 
