@@ -32,15 +32,6 @@ module.exports = {
         [
             "@semantic-release/github",
             {
-                "assets": [
-                    "templates/**",
-                    "index.ts",
-                    "package.json",
-                    "CHANGELOG.md",
-                    "LICENSE.md",
-                    "README.md",
-                    "UPGRADE.md"
-                ],
                 "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
         ]
