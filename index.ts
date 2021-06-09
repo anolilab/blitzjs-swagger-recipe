@@ -4,7 +4,7 @@ import path from "path"
 import pkg from "./package.json";
 
 export default RecipeBuilder()
-    .setName("Swagger Recipe")
+    .setName("Swagger")
     .setOwner(pkg.author)
     .setRepoLink(pkg.repository.url)
     .addAddDependenciesStep({
