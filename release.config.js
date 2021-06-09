@@ -29,10 +29,11 @@ module.exports = {
         ],
         "@semantic-release/changelog",
         "@semantic-release/npm",
+        "@semantic-release/github",
         [
-            "@semantic-release/github",
+            "@semantic-release/git",
             {
-                "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+                "message": "chore(release): ${nextRelease.gitTag} [skip ci]\\n\\n${nextRelease.notes}"
             }
         ]
     ]

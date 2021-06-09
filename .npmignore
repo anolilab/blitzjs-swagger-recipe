@@ -1,0 +1,13 @@
+.github
+.husky
+.editorconfig
+.eslintrc.cjs
+.nvmrc
+.prettierignore
+.prettierrc.cjs
+.textlintrc
+.yamllint.yaml
+release.config.js
+tsconfig.eslint.json
+tsconfig.json
+verify-node-version.cjs
