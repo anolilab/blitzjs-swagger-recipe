@@ -22,26 +22,13 @@ module.exports = {
             }
         ],
         [
-            "@google/semantic-release-replace-plugin",
-            {
-                "replacements": [
-                    {
-                        "files": [
-                            "composer.json"
-                        ],
-                        "from": "\"dev-main\": \".*\"",
-                        "to": "\"dev-main\": \"${nextRelease.version.replace(/\\.\\w+$/, '-dev')}\""
-                    }
-                ]
-            }
-        ],
-        [
             "@semantic-release/release-notes-generator",
             {
                 "preset": "conventionalcommits"
             }
         ],
         "@semantic-release/changelog",
+        "@semantic-release/npm",
         [
             "@semantic-release/github",
             {
