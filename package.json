@@ -1,0 +1,43 @@
+{
+    "name": "blitzjs-swagger-recipe",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [
+        "blitzjs",
+        "swagger",
+        "react"
+    ],
+    "homepage": "https://github.com/anolilab/blitzjs-swagger-recipe",
+    "bugs": {
+        "url": "https://github.com/anolilab/blitzjs-swagger-recipe/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anolilab/blitzjs-swagger-recipe.git"
+    },
+    "license": "MIT",
+    "author": "Daniel Bannert <d.bannert@anolilab.com> (https://github.com/prisis)",
+        "main": "index.ts",
+    "dependencies": {
+        "@types/jscodeshift": "0.11.0",
+        "jscodeshift": "0.12.0"
+    },
+    "devDependencies": {
+        "@anolilab/eslint-config": "^2.1.1",
+        "@anolilab/prettier-config": "^2.0.1",
+        "@types/lodash.merge": "^4.6.6",
+        "@types/swagger-jsdoc": "^6.0.0",
+        "@types/swagger-ui-react": "^3.35.1",
+        "@typescript-eslint/eslint-plugin": "^4.26.1",
+        "@typescript-eslint/parser": "^4.26.1",
+        "eslint": "^7.28.0",
+        "eslint-plugin-jest": "^24.3.6",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "lint-staged": "^11.0.0",
+        "prettier": "^2.3.1",
+        "prettier-plugin-prisma": "^0.11.1",
+        "pretty-quick": "^3.1.0",
+        "typescript": "^4.3.2"
+    }
+}
