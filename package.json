@@ -20,7 +20,7 @@
     "main": "index.ts",
     "scripts": {
         "preinstall": "node verify-node-version.cjs",
-        "postinstall": "husky install",
+        "-postinstall": "husky install",
         "lint:staged": "lint-staged",
         "lint:text": "textlint ./.build/ISSUE_TEMPLATE/** ./src/** ./docs/** ./README.md ./UPGRADE.md --dry-run",
         "prettier": "prettier --config=.prettierrc.cjs --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
