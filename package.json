@@ -19,7 +19,7 @@
     "author": "Daniel Bannert <d.bannert@anolilab.com> (https://github.com/prisis)",
     "main": "index.ts",
     "scripts": {
-        "preinstall": "node verify-node-version.cjs",
+        "-preinstall": "node verify-node-version.cjs",
         "-postinstall": "husky install",
         "lint:staged": "lint-staged",
         "lint:text": "textlint ./.build/ISSUE_TEMPLATE/** ./src/** ./docs/** ./README.md ./UPGRADE.md --dry-run",
