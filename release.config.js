@@ -22,6 +22,20 @@ module.exports = {
             }
         ],
         [
+            "@google/semantic-release-replace-plugin",
+            {
+                "replacements": [
+                    {
+                        "files": [
+                            "package.json"
+                        ],
+                        "from": "\"version\": \".*\"",
+                        "to": "\"version\": \"${nextRelease.version}\""
+                    }
+                ]
+            }
+        ],
+        [
             "@semantic-release/release-notes-generator",
             {
                 "preset": "conventionalcommits"
@@ -32,7 +46,8 @@ module.exports = {
         [
             "@semantic-release/git",
             {
-                "message": "chore(release): ${nextRelease.gitTag} [skip ci]\\n\\n${nextRelease.notes}"
+                "message": "chore(release): ${nextRelease.gitTag} [skip ci]\n\n${nextRelease.notes}",
+                "assets": ["package.json"]
             }
         ]
     ]
