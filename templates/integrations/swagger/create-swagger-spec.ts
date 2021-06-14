@@ -1,18 +1,11 @@
-import merge from "lodash.merge";
 import path from "path";
-import swaggerJsdoc from "swagger-jsdoc";
+import swaggerJsdoc, { Options } from "swagger-jsdoc";
 
 import { SwaggerOptions } from "./types";
 
-const API_FOLDERS = [
-    "pages/api",
-    "pages/**/api",
-    "pages/**/api/**",
-];
+const API_FOLDERS = ["pages/api", "pages/**/api", "pages/**/api/**"];
 
-export default function createSwaggerSpec({
-    openApiVersion = "3.0.0", apiFolders = API_FOLDERS, title, version, options: swaggerOptions = {},
-}: SwaggerOptions) {
+export default function createSwaggerSpec({ apiFolders = API_FOLDERS, options: swaggerOptions }: SwaggerOptions) {
     const folders: string[] = []; // files containing annotations as above
 
     apiFolders?.forEach((folder) => {
@@ -21,16 +14,14 @@ export default function createSwaggerSpec({
         folders.push(`${apiDirectory}/*.js`, `${apiDirectory}/*.ts`);
     });
 
-    const options = merge({
+    const options = {
+        ...swaggerOptions,
         definition: {
-            openapi: openApiVersion,
-            info: {
-                title,
-                version,
-            },
+            openapi: "3.0.0",
+            ...swaggerOptions?.definition,
         },
         apis: folders,
-    }, swaggerOptions);
+    } as Options;
 
     return swaggerJsdoc(options);
 }

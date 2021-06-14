@@ -26,8 +26,15 @@ body {
 // eslint-disable-next-line unicorn/prevent-abbreviations
 export const getStaticProps: GetStaticProps = async () => {
     const spec: Record<string, any> = createSwaggerSpec({
-        title: `${packages.name} Swagger`,
-        version: packages.version,
+        options: {
+            swaggerDefinition: {
+                info: {
+                    title: `${packages.name} Swagger`,
+                    version: packages.version,
+                },
+                schemes: ["http", "https"],
+            },
+        },
     });
 
     return {
