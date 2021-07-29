@@ -3,12 +3,12 @@ import swaggerJsdoc, { Options } from "swagger-jsdoc";
 
 import { SwaggerOptions } from "./types";
 
-const API_FOLDERS = ["pages/api", "pages/**/api", "pages/**/api/**"];
+const API_FOLDERS = ["app/pages/api", "app/pages/**/api", "app/pages/**/api/**", "app/**/api/**"];
 
 export default function createSwaggerSpec({ apiFolders = API_FOLDERS, options: swaggerOptions }: SwaggerOptions) {
     const folders: string[] = []; // files containing annotations as above
 
-    apiFolders?.forEach((folder) => {
+    apiFolders.forEach((folder) => {
         const apiDirectory = path.join(process.cwd(), folder);
 
         folders.push(`${apiDirectory}/*.js`, `${apiDirectory}/*.ts`);
