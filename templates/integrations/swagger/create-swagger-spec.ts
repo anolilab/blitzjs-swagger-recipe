@@ -20,6 +20,11 @@ export default function createSwaggerSpec({ apiFolders = API_FOLDERS, options: s
             openapi: "3.0.0",
             ...swaggerOptions?.definition,
         },
+        swaggerDefinition: {
+            openapi: "3.0.0",
+            components: {},
+            ...swaggerOptions?.swaggerDefinition,
+        },
         apis: folders,
     } as Options;
 
