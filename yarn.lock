@@ -815,55 +815,55 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blitzjs/config@npm:0.40.0":
-  version: 0.40.0
-  resolution: "@blitzjs/config@npm:0.40.0"
+"@blitzjs/config@npm:0.41.0":
+  version: 0.41.0
+  resolution: "@blitzjs/config@npm:0.41.0"
   dependencies:
     esbuild: ^0.11.12
     fs-extra: ^9.1.0
     pkg-dir: ^5.0.0
-  checksum: 51c7b320a82b5479c21b28a8d77eaab17e75aff5498d3bb0851a99f7aaf8d464f76977c268da03db7c8170c3ea40068d391dfd0e935bb9d06798b5a8c75ba8d9
+  checksum: 1c725847dde80b9518a1e33e2605f15f72d9dacf27482b0ae8e8a73a90dcd97c0003c8d65d41a10600093b58ea2d1f52967dcd23db3f86183671d37ce200cf63
   languageName: node
   linkType: hard
 
-"@blitzjs/core@npm:0.40.0":
-  version: 0.40.0
-  resolution: "@blitzjs/core@npm:0.40.0"
+"@blitzjs/core@npm:0.41.0":
+  version: 0.41.0
+  resolution: "@blitzjs/core@npm:0.41.0"
   dependencies:
-    "@blitzjs/config": 0.40.0
-    "@blitzjs/display": 0.40.0
+    "@blitzjs/config": 0.41.0
+    "@blitzjs/display": 0.41.0
     chalk: ^4.1.0
     cross-spawn: 7.0.3
     htmlescape: ^1.1.1
     lodash.frompairs: 4.0.1
-    next: "npm:@blitzjs/next@11.1.0-0.40.0"
+    next: "npm:@blitzjs/next@11.1.0-0.41.0"
     npm-which: ^3.0.1
     superjson: 1.7.2
-  checksum: 02d31f6f074ecfd0ae3faf09f84e06ac0bbda29080d1bda67dd0276d7e27a80bd9470c51937bdf116bce675fd7696b116f582f637f69bcee4a96e53a3ab114d4
+  checksum: 52a04eebd89e51600f4a9a898d5f87cebbcfc3d66e5cfabe4db08e8c0c18c90d9d9808f6e5bc354d97780ccd628601d6691903434186949d0fa8fec33a270954
   languageName: node
   linkType: hard
 
-"@blitzjs/display@npm:0.40.0":
-  version: 0.40.0
-  resolution: "@blitzjs/display@npm:0.40.0"
+"@blitzjs/display@npm:0.41.0":
+  version: 0.41.0
+  resolution: "@blitzjs/display@npm:0.41.0"
   dependencies:
-    "@blitzjs/display": 0.40.0
+    "@blitzjs/display": 0.41.0
     chalk: ^4.1.0
     console-table-printer: ^2.7.5
     ora: ^5.3.0
     readline: 1.3.0
-  checksum: 7295e5b932f307a2e303d712e8b5a0d6f8976f322de3c38d88b1c0cfd969b35fe14d2371ccc964c91983eb1c60fdeecc5bbee4fb837c0a728de819e039709072
+  checksum: 31de5943d530e841bd9db55c49a07f59cfb468b43074e648de7aafbacdf83498d7285006d63b40a3bb3037a8dedf6475b433cea3451352acf8338b94c405ca78
   languageName: node
   linkType: hard
 
-"@blitzjs/generator@npm:0.40.0":
-  version: 0.40.0
-  resolution: "@blitzjs/generator@npm:0.40.0"
+"@blitzjs/generator@npm:0.41.0":
+  version: 0.41.0
+  resolution: "@blitzjs/generator@npm:0.41.0"
   dependencies:
     "@babel/core": 7.12.10
     "@babel/plugin-transform-typescript": 7.12.1
-    "@blitzjs/display": 0.40.0
-    "@blitzjs/server": 0.40.0
+    "@blitzjs/display": 0.41.0
+    "@blitzjs/server": 0.41.0
     "@mrleebo/prisma-ast": ^0.2.4
     "@types/jscodeshift": 0.7.2
     chalk: ^4.1.0
@@ -880,19 +880,19 @@ __metadata:
     recast: 0.20.4
     username: ^5.1.0
     vinyl: 2.2.1
-  checksum: fc67e183e347d49b8065189ff4363f681c7d17a8f2f7985d668588040009de6ac9abfacc7d722ab1b91ec6fdbe3ffb26b67693a0dee4340e5e784dd03febeb07
+  checksum: ca8ddcb26889d6d25139ca3164071ca70d4f111fe0cd070e117a58047729f231341362a0065c675e3d94d4eecd4106ace95c00c001b56e2e1c10f23e677ccf36
   languageName: node
   linkType: hard
 
-"@blitzjs/installer@npm:^0.40.0":
-  version: 0.40.0
-  resolution: "@blitzjs/installer@npm:0.40.0"
+"@blitzjs/installer@npm:^0.41.0":
+  version: 0.41.0
+  resolution: "@blitzjs/installer@npm:0.41.0"
   dependencies:
     "@babel/core": 7.12.10
     "@babel/plugin-transform-typescript": 7.12.1
-    "@blitzjs/config": 0.40.0
-    "@blitzjs/display": 0.40.0
-    "@blitzjs/generator": 0.40.0
+    "@blitzjs/config": 0.41.0
+    "@blitzjs/display": 0.41.0
+    "@blitzjs/generator": 0.41.0
     "@mrleebo/prisma-ast": ^0.2.4
     "@prisma/sdk": 2.19.0
     "@types/jscodeshift": 0.7.2
@@ -906,24 +906,24 @@ __metadata:
     ink-testing-library: 2.1.0
     jscodeshift: 0.11.0
     recast: 0.20.4
-  checksum: 05be6d034427b2ff0c75ff1021f804ba0ad03d28b26b06dbc39179af661f7ab4fe40285faaa20728028d7d7b2a2142b4e1224b86da1d173133a93845996493b5
+  checksum: 587fcd915cc228f1271a2b72888122b4fb201ce28c6dd15ae30b5ce24fed41fd730f2d5e9c5c82fb3da93a92cf8b347956238300584505bd0edb34ba7554bd7d
   languageName: node
   linkType: hard
 
-"@blitzjs/server@npm:0.40.0":
-  version: 0.40.0
-  resolution: "@blitzjs/server@npm:0.40.0"
+"@blitzjs/server@npm:0.41.0":
+  version: 0.41.0
+  resolution: "@blitzjs/server@npm:0.41.0"
   dependencies:
-    "@blitzjs/config": 0.40.0
-    "@blitzjs/core": 0.40.0
-    "@blitzjs/display": 0.40.0
+    "@blitzjs/config": 0.41.0
+    "@blitzjs/core": 0.41.0
+    "@blitzjs/display": 0.41.0
     cross-spawn: 7.0.3
     detect-port: 1.3.0
     esbuild: ^0.11.12
     fs-extra: ^9.1.0
     pkg-dir: ^5.0.0
     resolve-cwd: 3.0.0
-  checksum: bd57b501835730d48f9580b05d79cc42ef3e41d7d1d0268165ec3d73c4a781b5cf92c5e3954b37688518d7b2b279780e4c108a741172df25843b777e8dd96dd3
+  checksum: cb44d40a5106a32960ef83a52ebc8bd20a9690500b3d48ddb9b92605de572b16433fb23153331493d83fc494ca5651c52a80647c578a37e8bd37d56c5d9ffc92
   languageName: node
   linkType: hard
 
@@ -2979,7 +2979,7 @@ __metadata:
     "@anolilab/eslint-config": ^2.1.3
     "@anolilab/prettier-config": ^2.0.1
     "@anolilab/textlint-config": ^2.0.5
-    "@blitzjs/installer": ^0.40.0
+    "@blitzjs/installer": ^0.41.0
     "@types/lodash.merge": ^4.6.6
     "@types/swagger-jsdoc": ^6.0.1
     "@types/swagger-ui-react": ^3.35.2
@@ -9059,9 +9059,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"next@npm:@blitzjs/next@11.1.0-0.40.0":
-  version: 11.1.0-0.40.0
-  resolution: "@blitzjs/next@npm:11.1.0-0.40.0"
+"next@npm:@blitzjs/next@11.1.0-0.41.0":
+  version: 11.1.0-0.41.0
+  resolution: "@blitzjs/next@npm:11.1.0-0.41.0"
   dependencies:
     "@babel/helper-module-imports": ^7.0.0
     "@babel/runtime": 7.12.5
@@ -9140,7 +9140,7 @@ fsevents@~2.3.1:
       optional: true
   bin:
     next: dist/bin/next
-  checksum: beadfe6c1a36164b98d48c2333dc67dea0d8635affa520cac08a8c2c5063b2ec77c95adb5f3dd102df18031f8b385d0b0bc4fae24ef28310c1e97cdca8d972f8
+  checksum: 0ba6e01524db7f51af6f2685f3fa3eaa813dbfafdc3b208956587bcfaa34cbafa68f69a6ac5fbabf9a59e74ace3c8f1e063941f687b6bf51eb08fe62cf4cc849
   languageName: node
   linkType: hard
 
