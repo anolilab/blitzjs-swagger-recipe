@@ -30,7 +30,7 @@
         "*.{js,jsx,ts,tsx}": "eslint -c ./.eslintrc.cjs --fix"
     },
     "dependencies": {
-        "@blitzjs/installer": "^0.42.0"
+        "@blitzjs/installer": "^0.43.0"
     },
     "devDependencies": {
         "@anolilab/eslint-config": "^2.1.3",
