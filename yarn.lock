@@ -2123,12 +2123,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/swagger-ui-react@npm:^3.35.2":
-  version: 3.35.2
-  resolution: "@types/swagger-ui-react@npm:3.35.2"
+"@types/swagger-ui-react@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "@types/swagger-ui-react@npm:4.1.0"
   dependencies:
     "@types/react": "*"
-  checksum: 4a8705ab65f7a2f31548b857521c78b77fc9cbaf3938bfbddf5c9d145d4ca340a18c1ee957d08a9e6c723ea984276fde6cd3223efcf34b0cf65b6c373f278313
+  checksum: 8a788ef81b7e1e282c736d8e95ff9e27f5ab6d1741e1b8ce4be453016eeded51357ce1f553a91e3e8d098d98080b18ba2cb1a2d3acb829e3dfb27c6dd2761c2a
   languageName: node
   linkType: hard
 
@@ -3017,7 +3017,7 @@ __metadata:
     "@blitzjs/installer": ^0.43.0
     "@types/lodash.merge": ^4.6.6
     "@types/swagger-jsdoc": ^6.0.1
-    "@types/swagger-ui-react": ^3.35.2
+    "@types/swagger-ui-react": ^4.0.0
     "@typescript-eslint/eslint-plugin": ^5.0.0
     "@typescript-eslint/parser": ^5.0.0
     eslint: ^8.0.0
