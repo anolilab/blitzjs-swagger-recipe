@@ -1028,14 +1028,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@blitzjs/generator@npm:0.44.0":
-  version: 0.44.0
-  resolution: "@blitzjs/generator@npm:0.44.0"
+"@blitzjs/generator@npm:0.45.0":
+  version: 0.45.0
+  resolution: "@blitzjs/generator@npm:0.45.0"
   dependencies:
     "@babel/core": 7.12.10
     "@babel/plugin-transform-typescript": 7.12.1
-    "@blitzjs/server": 0.44.0
-    "@mrleebo/prisma-ast": 0.2.4
+    "@blitzjs/server": 0.45.0
+    "@mrleebo/prisma-ast": 0.2.6
     "@types/jscodeshift": 0.11.2
     chalk: ^4.1.0
     cross-spawn: 7.0.3
@@ -1051,18 +1051,18 @@ __metadata:
     recast: 0.20.5
     username: ^5.1.0
     vinyl: 2.2.1
-  checksum: 8f7fdc69c717af2f562d044f98867d59b6be32a5bb56c255bc601481bc4b30825ffe7bebf439e758a313f3706c7f2a7d7fa5b9839b2cf0d66563c3898d663b84
+  checksum: 13a7fa442d076ef18962c7e0416080dd3a07e1c03a5a85c513a06adf963990360d07b298465e5692f037dc208d7e77302a4084aac11d4e189fc5b31d01419b77
   languageName: node
   linkType: hard
 
-"@blitzjs/installer@npm:^0.44.0":
-  version: 0.44.0
-  resolution: "@blitzjs/installer@npm:0.44.0"
+"@blitzjs/installer@npm:^0.45.0":
+  version: 0.45.0
+  resolution: "@blitzjs/installer@npm:0.45.0"
   dependencies:
     "@babel/core": 7.12.10
     "@babel/plugin-transform-typescript": 7.12.1
-    "@blitzjs/generator": 0.44.0
-    "@mrleebo/prisma-ast": 0.2.4
+    "@blitzjs/generator": 0.45.0
+    "@mrleebo/prisma-ast": 0.2.6
     "@prisma/sdk": 2.19.0
     "@types/jscodeshift": 0.11.2
     ast-types: 0.14.2
@@ -1076,13 +1076,13 @@ __metadata:
     ink-testing-library: 2.1.0
     jscodeshift: 0.13.0
     recast: 0.20.5
-  checksum: 68def10962492ba09e492fb03bd685fe4a0f8d5533a443b03d7b6c9ac29bc244baa874040b118e1612cbecf6343b41e8bf9c2366db199f1ac42c693b2253ebf3
+  checksum: 80b14e61122a0bdad6aa462ff793493ed248e621f9c492854650c5522be84c4cfc5a8b8df255acc9ec3b3def3901542e7f7b7df3024136d615bad3419b7fe79a
   languageName: node
   linkType: hard
 
-"@blitzjs/server@npm:0.44.0":
-  version: 0.44.0
-  resolution: "@blitzjs/server@npm:0.44.0"
+"@blitzjs/server@npm:0.45.0":
+  version: 0.45.0
+  resolution: "@blitzjs/server@npm:0.45.0"
   dependencies:
     cross-spawn: 7.0.3
     detect-port: 1.3.0
@@ -1090,7 +1090,7 @@ __metadata:
     fs-extra: ^9.1.0
     pkg-dir: ^5.0.0
     resolve-cwd: 3.0.0
-  checksum: e395621794ec1b111d83f68f2f5603f21625a7ca1d759db37078561feeee14ec2c0d0e699688057ff00d6dd73e3ef9c60c41731cb71d76c918861f91f6e97596
+  checksum: 21133dc2d0580600d97a65058e71544177ce020205f0e0293932c2434f8d09fe5132edd2a82c47f91d684d90ec672c0e638f4bbf5b2af154d3f17f497f6ad40f
   languageName: node
   linkType: hard
 
@@ -1181,12 +1181,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mrleebo/prisma-ast@npm:0.2.4":
-  version: 0.2.4
-  resolution: "@mrleebo/prisma-ast@npm:0.2.4"
+"@mrleebo/prisma-ast@npm:0.2.6":
+  version: 0.2.6
+  resolution: "@mrleebo/prisma-ast@npm:0.2.6"
   dependencies:
     chevrotain: ^9.0.1
-  checksum: b04944e345c3039f03a15795b738dd07417b87f7f1745433eb130deb2d0d8aa2ed123d44fd2945cb9e04cbfeae709c85a28014a75611035d9b19488882b45577
+  checksum: e86bee8722863b016bf35587083beab8b8cd66aa4fa87b8ccc2f8ed64802e6f966d8b1a17de7d657213c78311c157873704453f15d60e3e32a47b7142d0fe8f4
   languageName: node
   linkType: hard
 
@@ -2788,7 +2788,7 @@ __metadata:
     "@anolilab/eslint-config": ^2.1.3
     "@anolilab/prettier-config": ^2.0.1
     "@anolilab/textlint-config": ^3.0.0
-    "@blitzjs/installer": ^0.44.0
+    "@blitzjs/installer": ^0.45.0
     "@types/lodash.merge": ^4.6.6
     "@types/swagger-jsdoc": ^6.0.1
     "@types/swagger-ui-react": ^4.0.0
