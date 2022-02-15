@@ -33,8 +33,8 @@
         "@blitzjs/installer": "^0.45.0"
     },
     "devDependencies": {
-        "@anolilab/eslint-config": "^2.1.3",
-        "@anolilab/prettier-config": "^2.0.1",
+        "@anolilab/eslint-config": "^3.0.0",
+        "@anolilab/prettier-config": "^3.0.0",
         "@anolilab/textlint-config": "^4.0.0",
         "@types/lodash.merge": "^4.6.6",
         "@types/swagger-jsdoc": "^6.0.1",
